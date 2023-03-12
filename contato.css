@@ -1,0 +1,75 @@
+body{
+    background:url(https://usagif.com/wp-content/uploads/gifs/starfall-gif-20.gif.webp);
+}
+
+
+
+header {
+    background-color: black;
+    padding: 20px 0%;
+}
+
+header img:hover{
+    transform:scale(1.1);
+    
+}
+nav li{
+    display: inline-block;
+
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+   
+}
+form{
+    margin: 60px 0;
+    background-color: black;
+    border:20px solid transparent;
+    border-image: url(https://media0.giphy.com/media/ewSXPKleJ54muQy838/200w.webp?cid=ecf05e4791qeli2u8tmvcd3xp5wfy0ggfln1vjznukllp9ae&rid=200w.webp&ct=g) 150 round;
+ 
+}
+
+
+form label{
+    display: block;
+    color: aliceblue;
+    
+    
+}
+form input{
+    display: block;
+    margin: 10px 60px;
+    padding: 0 0 10px;
+    width: 30%;
+   
+}
+
+.Enviar{
+background-color:blueviolet;
+cursor: pointer;
+}
+.Enviar:hover{
+    background-color:chartreuse;
+    transform:scale(1.2);
+
+}
+
+.insta{
+    display:inline-flex;
+}
+.insta:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}
+
+footer{
+    text-align:center;
+    color: aliceblue;
+    background-color: black;
+    padding: 10px 0;
+    border-image-width: 40px;
+    
+   
+}
