@@ -24,7 +24,7 @@ nav {
 }
 
 nav li {
-    display: flex;
+    display: inline;
     margin: 0 0 0 5px;
     
 
