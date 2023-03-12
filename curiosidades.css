@@ -1,0 +1,89 @@
+header {
+    background-color: black;
+    padding: 20px 0%;
+}
+
+header img{
+    cursor: pointer;
+}
+header img :hover{
+    transform: scale(1.2);
+}
+
+.caixa {
+    width: 900px;
+    margin: 0% auto;
+}
+
+
+
+nav {
+    right: 0%;
+    position: absolute;
+    top: 110px;
+}
+
+nav li {
+    display: flex;
+    margin: 0 0 0 5px;
+    
+
+}
+
+nav a {
+    text-transform: uppercase;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    margin: 50px;
+    
+}
+nav a:hover{
+    color: rgb(200, 119, 204);
+    text-decoration: underline;
+}
+
+main{
+    background:url(https://usagif.com/wp-content/uploads/gifs/starfall-gif-20.gif.webp);
+}
+.Inf{
+  width: 940px;
+  margin: 0% auto;
+  padding: 50px 0;
+
+
+}
+.Inf li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: auto;
+    box-sizing: border-box;
+    border-color:black ;
+    border-width:10px ;
+    border-style: solid ;
+    background-color: aquamarine;
+    
+    
+}
+.Inf li:hover{
+    border-color:rgb(200, 119, 204) ;
+}
+.Inf li:hover h2{
+    font-size: 40px;
+}
+.Inf h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+    padding: 40px 0;
+    border-image-width: 40px;
+}
